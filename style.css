@@ -1,3 +1,5 @@
+/* teal code color : #008080 */
+
 body{
   padding: 0;
   margin: 0;
@@ -24,7 +26,7 @@ body{
 .content a:hover {
    text-decoration: none;
    border: 1px solid teal;
-   padding: 2px;
+   padding: 3px;
    
 }
 
@@ -65,6 +67,10 @@ body{
   font-size: 30px;
 }
 
+.videos{
+  margin-bottom: 50px;
+}
+
 /*.image{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -101,24 +107,46 @@ li{
    color: #9aa7af ;
 }
 
+.btnici a{
+  text-decoration: none;
+  color: teal;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: white ;
+  border : 2px solid teal;
+  font-size: 19px;
+
+}
+
+.btnici{
+  display: block;
+  margin: 40px;
+}
 img{
   margin: 30px;
 }
+
+.members{
+  background-image: url("MEMBERS.jpg");
+  background-size: cover;
+  width: 1583px;
+  height: 610px;
+}
 .footer{
-  padding: 20px;
+  padding: 7px;
   background: teal;
 }
 
 .footer p{
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   text-align: right;
 }
 
 .footer a{
   text-decoration: none;
   color: white;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 
@@ -160,6 +188,16 @@ img{
 
 .videos{
   width: 400px;
+}
+
+.members{
+  background-image: url("MEMBERS.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 443px;
+  height: 219px;
+
+
 }
 
 }
