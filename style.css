@@ -6,7 +6,49 @@ body{
   font-family:'Open Sans', sans-serif ;
 }
 
-.content{
+
+.container-fluid{
+  background-image: url("DSC_0028.jpg");
+  /*filter: grayscale(100%);*/
+  background-size: cover;
+  text-align: center;
+  /*padding: 250px; */
+  width: 1583px;
+  height: 682px;
+  color: white;
+  background-position: center;
+  font-family: open sans;
+}
+
+
+.titre{
+   margin: 195px;
+}
+
+
+li{
+  display: inline-block;
+  padding: 30px;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+  font-family:'Open Sans', sans-serif ;
+  font-size: 18px;
+ }
+
+li a:hover{
+  text-decoration: none;
+  color: black;
+}
+.nav{
+  margin-top: 0px;
+  text-align: center;
+  margin-left: 850px;
+}
+
+/*.content{
   display: flex;
   justify-content: flex-end;
   align-content: space-between;
@@ -16,20 +58,20 @@ body{
 }
 /*********************************************************************/
 /*********************************************************************/
-.content a {
+/*.content a {
   margin-right: 10px;
   margin-left: 10px;
   color: teal ;
-  text-decoration: none; 
+  text-decoration: none;
 }
- 
+
 .content a:hover {
    text-decoration: none;
    border: 1px solid teal;
    padding: 3px;
-   
-}
 
+}
+*/
 .container {
     width: 100%;
     padding-right: 69px;
@@ -42,22 +84,30 @@ body{
   display: block;
   width:  24%;
   height: 24%;
-  
 
 }
 
-.container-fluid{
-  background-image: url("DSC_0028.jpg");
-  /*filter: grayscale(100%);*/
-  background-size: cover;
-  text-align: center;
-  padding: 250px; 
- /*  width: 1500px; */
-  color: white;
-  background-position: center;
-  font-family: open sans;
+.title a{
+  text-decoration: none;
+
 }
 
+.reserver a:hover{
+  text-decoration: none;
+  color: teal;
+}
+
+.reserver{
+    border : 2px solid teal;
+    border-radius: 12px;
+    text-decoration: none;
+    color: teal;
+    font-family:'Open Sans', sans-serif ;
+    font-size: 18px;
+    padding: 7px;
+    margin-top: 10px;
+    background-color: white;
+}
 
 .container-fluid h1{
   font-size: 60px;
@@ -85,10 +135,12 @@ body{
 li{
   color: #9aa7af;
 }
+
+
 .section h2{
   color: teal;
   margin-bottom: 40px;
- 
+
 }
 
 .section{
@@ -133,20 +185,20 @@ img{
   height: 610px;
 }
 .footer{
-  padding: 7px;
+  padding: 15px;
   background: teal;
 }
 
 .footer p{
   color: white;
-  font-size: 15px;
-  text-align: right;
+  font-size: 12px;
+  text-align: left;
 }
 
 .footer a{
   text-decoration: none;
   color: white;
-  padding-left: 20px;
+  margin: 10px;
 }
 
 
@@ -164,11 +216,11 @@ img{
   background-image: url("DSC_00282.jpg");
   background-size: cover;
   text-align: center;
-  padding: 50px; 
+  width: 760px;
+  height: auto;
  /*  width: 1500px; */
   color: white;
   background-position: center;
-
 }
 
 .container-fluid h1{
@@ -177,13 +229,14 @@ img{
 
 .container-fluid h2{
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .section h2{
   color: teal;
   margin-bottom: 40px;
   font-size: 30px;
- 
+
 }
 
 .videos{
